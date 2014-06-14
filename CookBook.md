@@ -14,6 +14,8 @@ Description of raw data is provided by its authors in the linked file.
 
 ## Clean data description ##
 
+### Clean data ### 
+
 Each data row contains ordinal number of each record and basic infomation about activity and subject of measurement:
 
 activity - activity performed by subject during measurement. Possible values are WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING
@@ -29,13 +31,35 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ tGravityAcc-XYZ tBodyAccJerk-XYZ tBodyGyro-XYZ tBodyGyroJerk-XYZ tBodyAccMag tGravityAccMag tBodyAccJerkMag tBodyGyroMag tBodyGyroJerkMag fBodyAcc-XYZ fBodyAccJerk-XYZ fBodyGyro-XYZ fBodyAccMag fBodyAccJerkMag fBodyGyroMag fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are:
 
 mean(): Mean value std(): Standard deviation
 
 Data set contains data measure in both train and test phases of project.
+
+### Averages ###
+
+File contains calculated averages based on clean data set for each activity/subject combination.
+
+Average is calculated for each value included in clean data. For their detailed desciprtion see section above.
 
 ## Run instructions ##
 
@@ -65,3 +89,4 @@ In short, following steps were performed:
 * Merge data from train and test data sets into single clean data set
 * Save it in clean_data.txt
 * Calculated averages from clean data and save it to averages.txt
+
