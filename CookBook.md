@@ -51,7 +51,8 @@ These signals were used to estimate variables of the feature vector for each pat
 
 The set of variables that were estimated from these signals are:
 
-mean(): Mean value std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 Data set contains data measure in both train and test phases of project.
 
@@ -89,4 +90,7 @@ In short, following steps were performed:
 * Merge data from train and test data sets into single clean data set
 * Save it in clean_data.txt
 * Calculated averages from clean data and save it to averages.txt
+
+
+
 
