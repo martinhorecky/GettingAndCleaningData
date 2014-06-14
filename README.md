@@ -9,3 +9,5 @@ Aside from README.md this repository contains two files:
 
 1. run_analysis.R - R script file used to process raw data provided for project to clean data set according to the project requirements
 2. CookBook.md - describing data included in clean data file and steps performed in the process of cleaning data
+3. clean_data.txt - clean data resulting from transformation described in cook book
+4. averages.txt - averages calculated on clean data, also described in cook book
