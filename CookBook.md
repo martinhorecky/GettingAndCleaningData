@@ -52,20 +52,16 @@ Additional information on script internals can be found in detailed comments in 
 
 In short, following steps were performed:
 
-Read features.txt
-Read activity_labels.txt
-Read x_test.txt
-Read y_test.txt
-Read subject_test.txt
-Combine x_test and y_test data to single data set test - only include mean and std columns
-Read x_train.txt
-Read y_train.txt
-Read subject_train.txt
-Combine x_train and y_train data to single data set train - only include mean and std columns
-Merge data from train and test data sets into single clean data set
-Save it in clean_data.txt
-Calculated averages from clean data and save it to averages.txt
-
-
-
-
+* Read features.txt
+* Read activity_labels.txt
+* Read x_test.txt
+* Read y_test.txt
+* Read subject_test.txt
+* Combine x_test and y_test data to single data set test - only include mean and std columns
+* Read x_train.txt
+* Read y_train.txt
+* Read subject_train.txt
+* Combine x_train and y_train data to single data set train - only include mean and std columns
+* Merge data from train and test data sets into single clean data set
+* Save it in clean_data.txt
+* Calculated averages from clean data and save it to averages.txt
