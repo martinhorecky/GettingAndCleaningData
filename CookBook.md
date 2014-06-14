@@ -14,7 +14,7 @@ Description of raw data is provided by its authors in the linked file.
 
 ## Clean data description ##
 
-### Clean data ### 
+### Clean data
 
 Each data row contains ordinal number of each record and basic infomation about activity and subject of measurement:
 
